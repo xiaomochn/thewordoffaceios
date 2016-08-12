@@ -1,0 +1,76 @@
+PODS:
+  - Alamofire (3.4.1)
+  - AnimatedGIFImageSerialization (0.2.0)
+  - DGElasticPullToRefresh (1.0.2)
+  - DZNEmptyDataSet (1.8.1)
+  - ImagePickerSheetController (0.9.1)
+  - Material (1.42.8)
+  - MJRefresh (3.1.12)
+  - MMDrawerController (0.5.7):
+    - MMDrawerController/Core (= 0.5.7)
+    - MMDrawerController/MMDrawerBarButtonItem (= 0.5.7)
+    - MMDrawerController/MMDrawerVisualStates (= 0.5.7)
+    - MMDrawerController/Subclass (= 0.5.7)
+  - MMDrawerController/Core (0.5.7)
+  - MMDrawerController/MMDrawerBarButtonItem (0.5.7):
+    - MMDrawerController/Core
+  - MMDrawerController/MMDrawerVisualStates (0.5.7):
+    - MMDrawerController/Core
+  - MMDrawerController/Subclass (0.5.7):
+    - MMDrawerController/Core
+  - PagingMenuController (1.1.2)
+  - RxCocoa (2.6.0):
+    - RxSwift (~> 2.5)
+  - RxSwift (2.6.0)
+  - SDCycleScrollView (1.65):
+    - SDWebImage (~> 3.7)
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
+  - SwiftyJSON (2.3.2)
+  - TYAttributedLabel (2.6.1)
+  - UIActivityIndicator-for-SDWebImage (1.2):
+    - SDWebImage (~> 3.7)
+  - UzysAnimatedGifLoadMore (0.9.2):
+    - AnimatedGIFImageSerialization (~> 0.2.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.0)
+  - DGElasticPullToRefresh (= 1.0.2)
+  - DZNEmptyDataSet
+  - ImagePickerSheetController (~> 0.9.1)
+  - Material (~> 1.0)
+  - MJRefresh
+  - MMDrawerController (~> 0.5.7)
+  - PagingMenuController
+  - RxCocoa (~> 2.0)
+  - RxSwift (~> 2.0)
+  - SDCycleScrollView (~> 1.64)
+  - SDWebImage (~> 3.7.3)
+  - SwiftyJSON
+  - TYAttributedLabel (~> 2.6.0)
+  - UIActivityIndicator-for-SDWebImage
+  - UzysAnimatedGifLoadMore (~> 0.9.2)
+
+SPEC CHECKSUMS:
+  Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
+  AnimatedGIFImageSerialization: b0f0cfe71eac1ee45a3d57ae533c23b8e6f29501
+  DGElasticPullToRefresh: 49cc35f3509b46a58a8f45ae0165d0a8e0feccea
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  ImagePickerSheetController: 3c58c9fee6dcf36485222358a021f6b734f997ba
+  Material: dfe8929ff2a23044a16609314bb46f060bc8ebee
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  MMDrawerController: 7a4cf8e25596bf2434e03ce50d22a8608ddee6a1
+  PagingMenuController: a47a9669760b95f630cc3ef28bdce104f9107d14
+  RxCocoa: 89ab00d5753502520227940e3a0e0a0413683c6b
+  RxSwift: 77f3a0b15324baa7a1c9bfa9f199648a82424e26
+  SDCycleScrollView: f72904c77698a7f93a41bcbbc2d78b073bf7326c
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+  TYAttributedLabel: 4785820dc8d7935446f49f1de4daa0f99ebcba8a
+  UIActivityIndicator-for-SDWebImage: 7bf7ebbf0ed1747dedc0d6e949c4603a6d0f9e0c
+  UzysAnimatedGifLoadMore: 50f9cc2edb1a1b5352f10095daa2e68ce1b06e61
+
+PODFILE CHECKSUM: df6fa5925355e1a4a8c67c710fb5256c2d8bc046
+
+COCOAPODS: 1.0.1
