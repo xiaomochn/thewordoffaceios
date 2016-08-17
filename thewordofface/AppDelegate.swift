@@ -28,10 +28,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        self.window?.rootViewController = drawerController
         let bottomNavigationController: AppBottomNavigationController = AppBottomNavigationController()
         let navigationController: AppNavigationController = AppNavigationController(rootViewController: bottomNavigationController)
-        navigationController.hidesBarsOnTap = true
-        navigationController.hidesBarsOnSwipe =  true
-        navigationController.hidesBottomBarWhenPushed = true
-        navigationController.toolbarHidden = true
+    
         let menuController: AppMenuController = AppMenuController(rootViewController: navigationController)
         let statusBarController: StatusBarController = StatusBarController(rootViewController: menuController)
         let navigationDrawerController: AppNavigationDrawerController = AppNavigationDrawerController(rootViewController: statusBarController, leftViewController: AppLeftViewController())

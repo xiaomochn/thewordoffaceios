@@ -33,7 +33,7 @@ class FaceTabVC: UIViewController {
    // 获取数据
     func getItem(isFirst:Bool)  {
         Alamofire.request(.GET, UrlAndRequest.sharedInstance.getMainShowUrl(isFirst ? 0 : data.count, page: FaceMainVC.Titls.indexOf(title!)!), parameters: nil, encoding: .JSON, headers: UrlAndRequest.sharedInstance.getHeaders()).responseData { (response) in
-            var json = JSON(data: response.data!)
+            let json = JSON(data: response.data!)
             if isFirst{
                 self.data.removeAll()
             }
@@ -55,8 +55,10 @@ class FaceTabVC: UIViewController {
 
 extension FaceTabVC: UITableViewDelegate{
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-           navigationController?.setNavigationBarHidden(false, animated: true)
-        navigationController?.pushViewController((self.storyboard?.instantiateViewControllerWithIdentifier("LeftDrawerVC"))!, animated: true)
+        navigationController?.setNavigationBarHidden(false, animated: true)
+        let vc = self.storyboard?.instantiateViewControllerWithIdentifier("FaceItemDetial") as! FaceItemDetial
+        vc.data = data[indexPath.row]
+        navigationController?.pushViewController(vc, animated: true)
     }
 }
 extension FaceTabVC: UITableViewDataSource{

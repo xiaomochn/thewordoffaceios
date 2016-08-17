@@ -14,7 +14,7 @@ class UrlAndRequest: NSObject {
     }
     // 我的
     func getMyFaceUrl(begain:Int)->String{
-        return "http://www.apicloud.com/mcm/api/item?filter={\"where\":{\"userid\":\""+ThisUser.sharedInstance.id+"\",\"states\":{\"ne\":1}},\"order\":\"createdAt%20DESC\",\"skip\":\(begain),\"limit\":20,\"include\":\"item_comment_item\"}";
+        return encodingUrl ("http://www.apicloud.com/mcm/api/item?filter={\"where\":{\"userid\":\""+ThisUser.sharedInstance.id+"\",\"states\":{\"ne\":1}},\"order\":\"createdAt DESC\",\"skip\":\(begain),\"limit\":20,\"include\":\"item_comment_item\"}")
     }
     // 我赞过的的
     func getComment_itemUrl(begain:Int)->String{
@@ -41,11 +41,14 @@ class UrlAndRequest: NSObject {
     }
     func getMainShowUrl(begain:Int,  page:Int)->String{
  
-        return "http://www.apicloud.com/mcm/api/item?filter={\"where\":{\"states\":{\"ne\":1}\(MainShowUrlWhere()[page])},\"order\":\(MainShowUrlrder[page]),\"skip\":\(begain),\"limit\":10,\"include\":\"item_comment_item\"}".stringByAddingPercentEncodingWithAllowedCharacters(NSCharacterSet.URLQueryAllowedCharacterSet())!;
+        return encodingUrl ("http://www.apicloud.com/mcm/api/item?filter={\"where\":{\"states\":{\"ne\":1}\(MainShowUrlWhere()[page])},\"order\":\(MainShowUrlrder[page]),\"skip\":\(begain),\"limit\":10,\"include\":\"item_comment_item\"}")
         
     }
-    func getFunMainUrl(begain:Int, page:Int)->String{
-        return "http://www.apicloud.com/mcm/api/fun?filter={\"where\":{\"states\":{\"ne\":1}},\"order\":\"gravity%20DESC\",\"skip\":\(begain),\"limit\":10} ";
+    func encodingUrl(url:String) -> String {
+        return url.stringByAddingPercentEncodingWithAllowedCharacters(NSCharacterSet.URLQueryAllowedCharacterSet())!
+    }
+    func getFunMainUrl(begain:Int)->String{
+        return encodingUrl ("http://www.apicloud.com/mcm/api/fun?filter={\"where\":{\"states\":{\"ne\":1}},\"order\":\"gravity DESC\",\"skip\":\(begain),\"limit\":10} ")
     }
     // 单条
     func getMyFacedUrl(itemid:String )->String{

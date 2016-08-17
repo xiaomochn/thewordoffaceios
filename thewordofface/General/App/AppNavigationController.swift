@@ -48,13 +48,21 @@ class AppNavigationController: NavigationController ,UINavigationControllerDeleg
         if viewController.isKindOfClass(AppBottomNavigationController)
         {
             setNavigationBarHidden(true, animated: true)
+        }else{
+            setNavigationBarHidden(false, animated: true)
+            (menuController as? AppMenuController)?.hideMenuView()
+        }
+    }
+    func navigationController(navigationController: UINavigationController, didShowViewController viewController: UIViewController, animated: Bool) {
+        if viewController.isKindOfClass(AppBottomNavigationController)
+        {
+            setNavigationBarHidden(true, animated: true)
             navigationDrawerController?.enabled = true
             (menuController as? AppMenuController)?.showMenuView()
         }else{
             setNavigationBarHidden(false, animated: true)
             navigationDrawerController?.enabled = false
-            (menuController as? AppMenuController)?.hideMenuView()
-        }
+                  }
     }
     
 

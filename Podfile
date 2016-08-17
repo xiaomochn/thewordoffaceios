@@ -15,8 +15,11 @@ pod 'RxSwift',    '~> 2.0'
 pod 'RxCocoa',    '~> 2.0'
 pod 'SDCycleScrollView','~> 1.64'
 pod 'Material', '~> 1.0'
-
+pod 'ImagePickerSheetController', '~> 0.9.1'
 pod 'UzysAnimatedGifLoadMore', '~> 0.9.2'
+pod 'FlickerNumber', '~> 0.2.2'
+pod 'FaceppSDK', '~> 2.0.0'
+pod 'UMengAnalytics-NO-IDFA'
 #富文本
 pod 'TYAttributedLabel', '~> 2.6.0'
 

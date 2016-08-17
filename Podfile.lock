@@ -3,6 +3,8 @@ PODS:
   - AnimatedGIFImageSerialization (0.2.0)
   - DGElasticPullToRefresh (1.0.2)
   - DZNEmptyDataSet (1.8.1)
+  - FaceppSDK (2.0.0)
+  - FlickerNumber (0.2.2)
   - ImagePickerSheetController (0.9.1)
   - Material (1.42.8)
   - MJRefresh (3.1.12)
@@ -31,6 +33,7 @@ PODS:
   - TYAttributedLabel (2.6.1)
   - UIActivityIndicator-for-SDWebImage (1.2):
     - SDWebImage (~> 3.7)
+  - UMengAnalytics-NO-IDFA (4.1.1)
   - UzysAnimatedGifLoadMore (0.9.2):
     - AnimatedGIFImageSerialization (~> 0.2.0)
 
@@ -38,6 +41,8 @@ DEPENDENCIES:
   - Alamofire (~> 3.0)
   - DGElasticPullToRefresh (= 1.0.2)
   - DZNEmptyDataSet
+  - FaceppSDK (~> 2.0.0)
+  - FlickerNumber (~> 0.2.2)
   - ImagePickerSheetController (~> 0.9.1)
   - Material (~> 1.0)
   - MJRefresh
@@ -50,6 +55,7 @@ DEPENDENCIES:
   - SwiftyJSON
   - TYAttributedLabel (~> 2.6.0)
   - UIActivityIndicator-for-SDWebImage
+  - UMengAnalytics-NO-IDFA
   - UzysAnimatedGifLoadMore (~> 0.9.2)
 
 SPEC CHECKSUMS:
@@ -57,6 +63,8 @@ SPEC CHECKSUMS:
   AnimatedGIFImageSerialization: b0f0cfe71eac1ee45a3d57ae533c23b8e6f29501
   DGElasticPullToRefresh: 49cc35f3509b46a58a8f45ae0165d0a8e0feccea
   DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  FaceppSDK: c83bcadb7bbc512a3bb792f3cda407e14e0208b1
+  FlickerNumber: 2617ec93c7e4b7c359ef10c681d95ba60474ebf4
   ImagePickerSheetController: 3c58c9fee6dcf36485222358a021f6b734f997ba
   Material: dfe8929ff2a23044a16609314bb46f060bc8ebee
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
@@ -69,8 +77,9 @@ SPEC CHECKSUMS:
   SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
   TYAttributedLabel: 4785820dc8d7935446f49f1de4daa0f99ebcba8a
   UIActivityIndicator-for-SDWebImage: 7bf7ebbf0ed1747dedc0d6e949c4603a6d0f9e0c
+  UMengAnalytics-NO-IDFA: 1064992c1b7aaa22823179c0b33a664813fd7a85
   UzysAnimatedGifLoadMore: 50f9cc2edb1a1b5352f10095daa2e68ce1b06e61
 
-PODFILE CHECKSUM: df6fa5925355e1a4a8c67c710fb5256c2d8bc046
+PODFILE CHECKSUM: 4547358738fe20173613a08e56fed688f0dd7908
 
 COCOAPODS: 1.0.1

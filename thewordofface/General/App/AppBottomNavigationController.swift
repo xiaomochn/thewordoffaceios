@@ -50,8 +50,8 @@ class AppBottomNavigationController: BottomNavigationController {
 		super.prepareView()
        
 		prepareMenuButton()
-		prepareSwitchControl()
-		prepareSearchButton()
+//		prepareSwitchControl()
+//		prepareSearchButton()
 		prepareNavigationItem()
 		prepareViewControllers()
 		prepareTabBar()
@@ -103,13 +103,13 @@ class AppBottomNavigationController: BottomNavigationController {
 		navigationItem.titleLabel.textColor = MaterialColor.white
 		navigationItem.titleLabel.font = RobotoFont.mediumWithSize(20)
 		
-		navigationItem.leftControls = [menuButton]
-		navigationItem.rightControls = [switchControl, searchButton]
+//		navigationItem.leftControls = [menuButton]
+//		navigationItem.rightControls = [switchControl, searchButton]
 	}
 	
 	/// Prepares the view controllers.
 	private func prepareViewControllers() {
-		viewControllers = [RecipesViewController(), UIStoryboard.init(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("FaceMainVC")]
+		viewControllers = [UIStoryboard.init(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("FunVC"), UIStoryboard.init(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("FaceMainVC")]
 		selectedIndex = 0
 	}
 	

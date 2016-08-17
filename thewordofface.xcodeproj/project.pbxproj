@@ -7,7 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD38E8A41D615E3500889028 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD38E8A31D615E3500889028 /* Photos.framework */; };
+		CD38E8A71D61993A00889028 /* FacePPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CD38E8A61D61993A00889028 /* FacePPHelper.m */; };
 		CD5E37C81D5D9DBB00A7685F /* LBTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5E37C71D5D9DBB00A7685F /* LBTagView.m */; };
+		CD5E37CA1D5DC2CD00A7685F /* FunVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5E37C91D5DC2CD00A7685F /* FunVC.swift */; };
+		CD5E37CC1D5DC2EE00A7685F /* FunCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5E37CB1D5DC2EE00A7685F /* FunCell.swift */; };
+		CD5E37CE1D5DD38900A7685F /* MyWebViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5E37CD1D5DD38900A7685F /* MyWebViewVC.swift */; };
+		CD6999491D645A7200D22508 /* LikeStarTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6999481D645A7200D22508 /* LikeStarTableVC.swift */; };
+		CD69994B1D645DF100D22508 /* LikeStarTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD69994A1D645DF100D22508 /* LikeStarTableCell.swift */; };
+		CD69994E1D6467EE00D22508 /* FaceItemDetial.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD69994D1D6467EE00D22508 /* FaceItemDetial.swift */; };
 		CD92A0551D5B1FE4005DA721 /* FaceCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD92A0541D5B1FE4005DA721 /* FaceCardCell.swift */; };
 		CD92A0571D5B30A6005DA721 /* UrlAndRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD92A0561D5B30A6005DA721 /* UrlAndRequest.swift */; };
 		CD92A05D1D5C19A6005DA721 /* fruit_animation@2x.gif in Resources */ = {isa = PBXBuildFile; fileRef = CD92A05B1D5C19A6005DA721 /* fruit_animation@2x.gif */; };
@@ -26,6 +34,7 @@
 		CDAD7F7B1D58642C00316F89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDAD7F791D58642C00316F89 /* LaunchScreen.storyboard */; };
 		CDAD7F881D58877E00316F89 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAD7F871D58877E00316F89 /* MainTabBarController.swift */; };
 		CDB6F0E81D5C6E870030E49C /* SH1.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB6F0E71D5C6E870030E49C /* SH1.swift */; };
+		CDC775021D61BD6E009BEE68 /* FaceResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC775011D61BD6E009BEE68 /* FaceResultVC.swift */; };
 		CDE381C21D5B051900A09C66 /* AppBottomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE381B71D5B051900A09C66 /* AppBottomNavigationController.swift */; };
 		CDE381C31D5B051900A09C66 /* AppLeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE381B81D5B051900A09C66 /* AppLeftViewController.swift */; };
 		CDE381C41D5B051900A09C66 /* AppMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE381B91D5B051900A09C66 /* AppMenuController.swift */; };
@@ -44,8 +53,17 @@
 		3112AB78FC841E79ED276FEB /* Pods-thewordofface.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-thewordofface.release.xcconfig"; path = "Pods/Target Support Files/Pods-thewordofface/Pods-thewordofface.release.xcconfig"; sourceTree = "<group>"; };
 		94D2CC1857A3403EC805B443 /* Pods-thewordofface.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-thewordofface.debug.xcconfig"; path = "Pods/Target Support Files/Pods-thewordofface/Pods-thewordofface.debug.xcconfig"; sourceTree = "<group>"; };
 		BBE12B3618CCD82155640DDF /* Pods_thewordofface.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_thewordofface.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD38E8A31D615E3500889028 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		CD38E8A51D61993A00889028 /* FacePPHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FacePPHelper.h; path = Category/FacePPHelper.h; sourceTree = "<group>"; };
+		CD38E8A61D61993A00889028 /* FacePPHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FacePPHelper.m; path = Category/FacePPHelper.m; sourceTree = "<group>"; };
 		CD5E37C61D5D9DBB00A7685F /* LBTagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBTagView.h; sourceTree = "<group>"; };
 		CD5E37C71D5D9DBB00A7685F /* LBTagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBTagView.m; sourceTree = "<group>"; };
+		CD5E37C91D5DC2CD00A7685F /* FunVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FunVC.swift; path = General/Face/FunVC.swift; sourceTree = "<group>"; };
+		CD5E37CB1D5DC2EE00A7685F /* FunCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FunCell.swift; path = General/Face/Cell/FunCell.swift; sourceTree = "<group>"; };
+		CD5E37CD1D5DD38900A7685F /* MyWebViewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyWebViewVC.swift; path = Category/MyWebViewVC.swift; sourceTree = "<group>"; };
+		CD6999481D645A7200D22508 /* LikeStarTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LikeStarTableVC.swift; path = General/Face/LikeStarTableVC.swift; sourceTree = "<group>"; };
+		CD69994A1D645DF100D22508 /* LikeStarTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LikeStarTableCell.swift; path = General/Face/Cell/LikeStarTableCell.swift; sourceTree = "<group>"; };
+		CD69994D1D6467EE00D22508 /* FaceItemDetial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceItemDetial.swift; sourceTree = "<group>"; };
 		CD92A0541D5B1FE4005DA721 /* FaceCardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FaceCardCell.swift; path = General/Face/Cell/FaceCardCell.swift; sourceTree = "<group>"; };
 		CD92A0561D5B30A6005DA721 /* UrlAndRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UrlAndRequest.swift; path = General/Face/UrlAndRequest.swift; sourceTree = "<group>"; };
 		CD92A05B1D5C19A6005DA721 /* fruit_animation@2x.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "fruit_animation@2x.gif"; path = "resource/fruit_animation@2x.gif"; sourceTree = "<group>"; };
@@ -68,6 +86,7 @@
 		CDB6F0E61D5C63DE0030E49C /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 		CDB6F0E71D5C6E870030E49C /* SH1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SH1.swift; path = Category/SH1.swift; sourceTree = "<group>"; };
 		CDB6F0E91D5C70270030E49C /* thewordofface-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "thewordofface-Bridging-Header.h"; sourceTree = "<group>"; };
+		CDC775011D61BD6E009BEE68 /* FaceResultVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FaceResultVC.swift; path = General/Face/FaceResultVC.swift; sourceTree = "<group>"; };
 		CDE381B71D5B051900A09C66 /* AppBottomNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppBottomNavigationController.swift; path = General/App/AppBottomNavigationController.swift; sourceTree = "<group>"; };
 		CDE381B81D5B051900A09C66 /* AppLeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppLeftViewController.swift; path = General/App/AppLeftViewController.swift; sourceTree = "<group>"; };
 		CDE381B91D5B051900A09C66 /* AppMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppMenuController.swift; path = General/App/AppMenuController.swift; sourceTree = "<group>"; };
@@ -86,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD38E8A41D615E3500889028 /* Photos.framework in Frameworks */,
 				E0A563ADDFC7BAD98887C116 /* Pods_thewordofface.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -96,6 +116,7 @@
 		62BACC13128F01E0D8B7B5D3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CD38E8A31D615E3500889028 /* Photos.framework */,
 				BBE12B3618CCD82155640DDF /* Pods_thewordofface.framework */,
 			);
 			name = Frameworks;
@@ -119,10 +140,20 @@
 			path = LBTagView;
 			sourceTree = "<group>";
 		};
+		CD69994C1D6467BB00D22508 /* FaceTabIn */ = {
+			isa = PBXGroup;
+			children = (
+				CD69994D1D6467EE00D22508 /* FaceItemDetial.swift */,
+			);
+			name = FaceTabIn;
+			sourceTree = "<group>";
+		};
 		CD92A0491D5B1AFE005DA721 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
 				CD92A0541D5B1FE4005DA721 /* FaceCardCell.swift */,
+				CD5E37CB1D5DC2EE00A7685F /* FunCell.swift */,
+				CD69994A1D645DF100D22508 /* LikeStarTableCell.swift */,
 			);
 			name = Cell;
 			sourceTree = "<group>";
@@ -140,10 +171,13 @@
 		CDA135781D597EA000A10610 /* Face */ = {
 			isa = PBXGroup;
 			children = (
+				CDA1357B1D5AD1A400A10610 /* FaceTabVC.swift */,
+				CD69994C1D6467BB00D22508 /* FaceTabIn */,
 				CD92A0491D5B1AFE005DA721 /* Cell */,
 				CDA135791D597ECB00A10610 /* FaceMainVC.swift */,
-				CDA1357B1D5AD1A400A10610 /* FaceTabVC.swift */,
-				CD92A0561D5B30A6005DA721 /* UrlAndRequest.swift */,
+				CD5E37C91D5DC2CD00A7685F /* FunVC.swift */,
+				CDC775011D61BD6E009BEE68 /* FaceResultVC.swift */,
+				CD6999481D645A7200D22508 /* LikeStarTableVC.swift */,
 			);
 			name = Face;
 			sourceTree = "<group>";
@@ -199,6 +233,7 @@
 				CDE381B61D5B047700A09C66 /* App */,
 				CDA135781D597EA000A10610 /* Face */,
 				CDAD7F871D58877E00316F89 /* MainTabBarController.swift */,
+				CD92A0561D5B30A6005DA721 /* UrlAndRequest.swift */,
 				CDA135741D596DA400A10610 /* LeftDrawerVC.swift */,
 				CDA135761D5970CB00A10610 /* MainVC.swift */,
 			);
@@ -211,6 +246,9 @@
 				CD92A0611D5C1C38005DA721 /* TableViewHelper.swift */,
 				CD92A0651D5C5455005DA721 /* APICloudeHelper.swift */,
 				CDB6F0E71D5C6E870030E49C /* SH1.swift */,
+				CD5E37CD1D5DD38900A7685F /* MyWebViewVC.swift */,
+				CD38E8A51D61993A00889028 /* FacePPHelper.h */,
+				CD38E8A61D61993A00889028 /* FacePPHelper.m */,
 			);
 			name = Category;
 			sourceTree = "<group>";
@@ -366,26 +404,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD69994E1D6467EE00D22508 /* FaceItemDetial.swift in Sources */,
 				CDA1357A1D597ECB00A10610 /* FaceMainVC.swift in Sources */,
 				CDE381C31D5B051900A09C66 /* AppLeftViewController.swift in Sources */,
 				CDE381C41D5B051900A09C66 /* AppMenuController.swift in Sources */,
 				CD5E37C81D5D9DBB00A7685F /* LBTagView.m in Sources */,
+				CDC775021D61BD6E009BEE68 /* FaceResultVC.swift in Sources */,
 				CD92A0621D5C1C38005DA721 /* TableViewHelper.swift in Sources */,
 				CDE381C81D5B051900A09C66 /* ItemViewController.swift in Sources */,
+				CD5E37CE1D5DD38900A7685F /* MyWebViewVC.swift in Sources */,
+				CD6999491D645A7200D22508 /* LikeStarTableVC.swift in Sources */,
 				CDA1357C1D5AD1A400A10610 /* FaceTabVC.swift in Sources */,
 				CDE381CB1D5B051900A09C66 /* RecommendationViewController.swift in Sources */,
 				CDE381C71D5B051900A09C66 /* AppSearchBarViewController.swift in Sources */,
 				CD92A0661D5C5455005DA721 /* APICloudeHelper.swift in Sources */,
 				CDB6F0E81D5C6E870030E49C /* SH1.swift in Sources */,
+				CD38E8A71D61993A00889028 /* FacePPHelper.m in Sources */,
 				CDE381C61D5B051900A09C66 /* AppNavigationDrawerController.swift in Sources */,
 				CDE381CC1D5B051900A09C66 /* VideoViewController.swift in Sources */,
+				CD69994B1D645DF100D22508 /* LikeStarTableCell.swift in Sources */,
 				CD92A0571D5B30A6005DA721 /* UrlAndRequest.swift in Sources */,
 				CDA135751D596DA400A10610 /* LeftDrawerVC.swift in Sources */,
 				CDA135771D5970CB00A10610 /* MainVC.swift in Sources */,
 				CDAD7F881D58877E00316F89 /* MainTabBarController.swift in Sources */,
 				CDAD7F711D58642C00316F89 /* AppDelegate.swift in Sources */,
 				CDE381C91D5B051900A09C66 /* PhotoViewController.swift in Sources */,
+				CD5E37CC1D5DC2EE00A7685F /* FunCell.swift in Sources */,
 				CD92A0551D5B1FE4005DA721 /* FaceCardCell.swift in Sources */,
+				CD5E37CA1D5DC2CD00A7685F /* FunVC.swift in Sources */,
 				CDE381C21D5B051900A09C66 /* AppBottomNavigationController.swift in Sources */,
 				CD92A0641D5C454A005DA721 /* ThisUser.swift in Sources */,
 				CDE381CA1D5B051900A09C66 /* RecipesViewController.swift in Sources */,

@@ -13,6 +13,7 @@ import SDWebImage
 class FaceCardCell: MaterialTableViewCell {
     @IBOutlet weak var faceImage: UIImageView!
     @IBOutlet weak var likeImage: UIImageView!
+    @IBOutlet weak var likeImageCon: UIView!
     @IBOutlet weak var startInfolb: UILabel!
     
     
@@ -22,11 +23,11 @@ class FaceCardCell: MaterialTableViewCell {
         self.data = data
         faceImage.sd_setImageWithURL(NSURL(string: data["imgurl"].stringValue.stringByAddingPercentEncodingWithAllowedCharacters(NSCharacterSet.URLQueryAllowedCharacterSet())!))
         if data["like_candidate_url"].stringValue != ""{
-            likeImage.hidden = false
+            likeImageCon.hidden = false
             likeImage.sd_setImageWithURL(NSURL(string: data["like_candidate_url"].stringValue.stringByAddingPercentEncodingWithAllowedCharacters(NSCharacterSet.URLQueryAllowedCharacterSet())! ))
             startInfolb.text = "\(data["like_candidate_username"].stringValue) \(data["like_candidate_simler"].stringValue)"
         }else{
-//        likeImage.hidden = true
+            likeImageCon.hidden = true
         }
         prepareTagView()
     }

@@ -4,3 +4,4 @@
 
 #import <CommonCrypto/CommonCrypto.h>
 #import "LBTagView.h"
+#import "FacePPHelper.h"
